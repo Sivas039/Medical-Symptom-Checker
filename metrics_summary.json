@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-07T12:26:27.390376",
+  "system_uptime_hours": 358.3198258363889,
+  "uptime_percentage": 100.0,
+  "total_sessions": 12,
+  "active_sessions": 0,
+  "completion_rate_percent": 0.0,
+  "abandonment_rate_percent": 0.0,
+  "avg_response_time_seconds": 4.847935914993286,
+  "avg_audio_processing_time": 8.45141613483429,
+  "avg_real_time_factor": 1.0,
+  "audio_transcription_success_rate": 0,
+  "llm_generation_success_rate": 0,
+  "rag_retrieval_success_rate": 0,
+  "emergency_cases_detected": 2,
+  "referrals_made": 4,
+  "avg_symptoms_per_session": 1.0,
+  "most_common_symptoms": {
+    "headache": 1
+  },
+  "total_errors": 15,
+  "error_rate_per_session": 1.25,
+  "total_interactions": 27,
+  "avg_interactions_per_session": 2.25
+}

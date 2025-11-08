@@ -1,0 +1,109 @@
+{
+  "symptoms": [
+    {
+      "name": "fever",
+      "patterns": ["fever", "high temperature", "pyrexia"],
+      "negation": true,
+      "synonyms": ["chills with fever"]
+    },
+    {
+      "name": "headache",
+      "patterns": ["headache", "head pain", "migraine"],
+      "negation": true,
+      "synonyms": ["severe headache", "throbbing head"]
+    },
+    {
+      "name": "cough",
+      "patterns": ["cough", "dry cough", "wet cough"],
+      "negation": true
+    },
+    {
+      "name": "chest pain",
+      "patterns": ["chest pain", "angina", "heart pain"],
+      "negation": true,
+      "severity": "high"
+    },
+    {
+      "name": "shortness of breath",
+      "patterns": ["shortness of breath", "difficulty breathing", "dyspnea"],
+      "negation": true,
+      "severity": "high"
+    },
+    {
+      "name": "nausea",
+      "patterns": ["nausea", "queasy", "sick to stomach"],
+      "negation": true
+    },
+    {
+      "name": "vomiting",
+      "patterns": ["vomiting", "throwing up", "puking"],
+      "negation": true
+    },
+    {
+      "name": "diarrhea",
+      "patterns": ["diarrhea", "loose stools", "runny poop"],
+      "negation": true
+    },
+    {
+      "name": "abdominal pain",
+      "patterns": ["abdominal pain", "stomach ache", "belly pain"],
+      "negation": true
+    },
+    {
+      "name": "fatigue",
+      "patterns": ["fatigue", "tiredness", "exhaustion"],
+      "negation": true
+    },
+    {
+      "name": "rash",
+      "patterns": ["rash", "skin rash", "hives"],
+      "negation": true
+    },
+    {
+      "name": "dizziness",
+      "patterns": ["dizziness", "vertigo", "lightheaded"],
+      "negation": true
+    },
+    {
+      "name": "sore throat",
+      "patterns": ["sore throat", "throat pain", "scratchy throat"],
+      "negation": true
+    },
+    {
+      "name": "runny nose",
+      "patterns": ["runny nose", "rhinorrhea", "stuffy nose"],
+      "negation": true
+    },
+    {
+      "name": "muscle pain",
+      "patterns": ["muscle pain", "myalgia", "body aches"],
+      "negation": true
+    },
+    {
+      "name": "joint pain",
+      "patterns": ["joint pain", "arthralgia", "swollen joints"],
+      "negation": true
+    },
+    {
+      "name": "itching",
+      "patterns": ["itching", "pruritus", "itchy skin"],
+      "negation": true
+    },
+    {
+      "name": "swelling",
+      "patterns": ["swelling", "edema", "puffy"],
+      "negation": true
+    },
+    {
+      "name": "bleeding",
+      "patterns": ["bleeding", "hemorrhage", "blood in stool"],
+      "negation": true,
+      "severity": "high"
+    },
+    {
+      "name": "constipation",
+      "patterns": ["constipation", "hard stools", "no bowel movement"],
+      "negation": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "default_index": "data/medquad_faiss.idx",
+  "default_metadata": "data/medquad_faiss_meta.csv",
+  "merged_index": "data/medquad_faiss_merged.idx",
+  "merged_metadata": "data/medquad_faiss_merged_meta.csv",
+  "description": "Merged index containing MEDQUAD + MIMIC-IV clinical notes",
+  "switching_enabled": true,
+  "switch_command": "use_merged_index()"
+}
